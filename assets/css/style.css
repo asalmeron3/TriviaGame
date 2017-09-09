@@ -1,0 +1,24 @@
+body{
+/*height: 100%;
+width: 100vw;*/
+background: black;
+background-image: url("../images/hogwarts.jpg");
+color: white;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0 auto;
+}
+
+button{
+	color:black;
+	margin-top: 25%;
+	margin-left: 10%;
+}
+
+.time{
+	text-align: center;
+}
+
+.orderedQs{
+	text-align: center;
+}

@@ -89,6 +89,8 @@ function startSetup(){
 	keepGoing();
 }
 
+
+//this function will decrease the count and display it on the screen. if the count reaches 0, it will also print the results of the trivia quiz/game
 function countDown(){
 	count--;
 	$(".time").html("<h1> Time remaining: " +count + " seconds </h1>"); 
@@ -119,6 +121,7 @@ function grade(){
 	}
 }
 
+//this functions holds the set interval which runs the countdown function each second
 function keepGoing(){
 	down1 = setInterval(countDown,1000);
 }
