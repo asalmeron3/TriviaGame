@@ -1,8 +1,5 @@
 body{
-/*height: 100%;
-width: 100vw;*/
 background: black;
-background-image: url("../images/hogwarts.jpg");
 color: white;
 background-repeat: no-repeat;
 background-size: cover;
@@ -21,4 +18,41 @@ button{
 
 .orderedQs{
 	text-align: center;
+}
+
+/* Extra Small Devices, Phones */ 
+@media screen and (max-width : 480px){
+	body {
+		background-image: url("../images/HarryPotterXS.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+/* Small Devices, Tablets */
+@media screen and (min-width : 481px) {
+	body {
+		background-image: url("../images/HarryPotterSM.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width : 768px) {
+	body {
+		background-image: url("../images/HarryPotterMD.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media  screen and (min-width : 1200px) {
+	body {
+		background-image: url("../images/HarryPotterLG.png");
+		background-size: cover;
+		height: 100%;
+		background-repeat: no-repeat;
+	}
 }
