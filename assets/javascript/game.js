@@ -14,7 +14,7 @@ var allQs = {
 	ans2: ["Remus Lupin", "Peter Pettigrew", "Sirius Black", "James Potter"],
 
 	Q3: "What animagus is Rita Skeeter?",
-	ans3:["Squirrel", "Dog", "Lady Bug", "ButteryFly"],
+	ans3:["Squirrel", "Dog", "Beetle", "ButteryFly"],
 
 	Q4: "In what year of Hogwarts did Hermoine first make PollyJuice potion?",
 	ans4: ["Year 1", "Year 2", "Year 3", "Year 4"],
